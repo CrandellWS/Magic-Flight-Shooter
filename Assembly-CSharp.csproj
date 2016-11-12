@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{2245F6EB-0A71-013D-0493-F35F14BD8296}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_LINUX;UNITY_STANDALONE;UNITY_STANDALONE_LINUX_API;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_LINUX;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>/opt/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudAsyncMatch.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudAuthentication.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudClient.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudDataStream.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudEntity.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudEvent.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudFriend.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudGamification.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudGlobalApp.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudGlobalEntity.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudGlobalStatistics.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudIdentity.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudMatchMaking.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudOneWayMatch.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudPlaybackStream.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudPlayerState.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudPlayerStatistics.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudPlayerStatisticsEvent.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudProduct.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudProfanity.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudPushNotification.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudRedemptionCode.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudS3Handling.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudScript.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudSocialLeaderboard.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudTime.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\BrainCloudTwitter.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Common\ACL.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Common\Constants.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Common\Platform.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\BCEntity.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\BCEntityFactory.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\BCUserEntity.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\Internal\AutoCreateAOTCompileHelper.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\Internal\DictionaryWrapper.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\Internal\DictionaryWrapperEnumerator.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\Internal\EntityUtil.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\Internal\ListWrapper.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Entity\Internal\ListWrapperEnumerator.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\AsynchRequestAndResponse.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\BrainCloudComms.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\ITimer.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\JsonFxAOT.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\MultiThreadedTimer.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\OperationParam.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\RequestState.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\ServerCall.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\ServiceName.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\ServiceOperation.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Internal\SingleThreadedTimer.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\MD5Unity.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Properties\AssemblyInfo.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\ReasonCodes.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\RegionLocale.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\ServerCallback.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\StatusCodes.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Util.cs" />
+     <Compile Include="Assets\BrainCloud\Client\BrainCloud\Version.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\About.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\DataReaderProvider.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\DataWriterProvider.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\EcmaScriptIdentifier.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\EcmaScriptWriter.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\IDataReader.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\IDataWriter.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\IJsonSerializable.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonDataReader.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonDataWriter.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonIgnoreAttribute.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonNameAttribute.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonReader.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonReaderSettings.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonSerializationException.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonSpecifiedPropertyAttribute.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonToken.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonWriter.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\JsonWriterSettings.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\TypeCoercionUtility.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\XmlDataReader.cs" />
+     <Compile Include="Assets\BrainCloud\JsonFx\XmlDataWriter.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\IJsonWrapper.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\JsonData.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\JsonException.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\JsonMapper.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\JsonMockWrapper.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\JsonReader.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\JsonWriter.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\Lexer.cs" />
+     <Compile Include="Assets\BrainCloud\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\BrainCloudLoginPF.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\BrainCloudSettings.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\BrainCloudWrapper.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\HUD\BrainCloudHUD.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\HUD\HUDGlobalStats.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\HUD\HUDInfo.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\HUD\HUDLeaderboard.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\HUD\HUDPlayer.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\HUD\HUDPlayerStats.cs" />
+     <Compile Include="Assets\BrainCloud\Unity\Scripts\HUD\IHUDElement.cs" />
+     <Compile Include="Assets\Scripts\Connection\BrainCloudStats.cs" />
+     <Compile Include="Assets\Scripts\Connection\Connect.cs" />
+     <Compile Include="Assets\Scripts\Connection\DialogDisplay.cs" />
+     <Compile Include="Assets\Scripts\Connection\MapPresets.cs" />
+     <Compile Include="Assets\Scripts\Game\BombController.cs" />
+     <Compile Include="Assets\Scripts\Game\BombPickup.cs" />
+     <Compile Include="Assets\Scripts\Game\BulletController.cs" />
+     <Compile Include="Assets\Scripts\Game\FlareController.cs" />
+     <Compile Include="Assets\Scripts\Game\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Game\MapBoundsCheck.cs" />
+     <Compile Include="Assets\Scripts\Game\MapCloudBorder.cs" />
+     <Compile Include="Assets\Scripts\Game\PlaneController.cs" />
+     <Compile Include="Assets\Scripts\Game\PlayerInput\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Game\PlayerInput\WeaponController.cs" />
+     <Compile Include="Assets\Scripts\Game\ShipController.cs" />
+     <Compile Include="Assets\Scripts\Game\TargetPointDisplay.cs" />
+     <Compile Include="Assets\Scripts\LockOrientation.cs" />
+     <Compile Include="Assets\Scripts\Matchmaking\Matchmaking.cs" />
+     <Compile Include="Assets\Scripts\ObjectRotation.cs" />
+     <Compile Include="Assets\Scripts\ParticlesDestroyer.cs" />
+     <Compile Include="Assets\Scripts\UI\FullscreenBtn.cs" />
+     <Compile Include="Assets\Scripts\UI\VersionText.cs" />
+     <None Include="Assets\BrainCloud\JsonFx\License.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Resources\Version.txt" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\BrainCloud\JsonFx\Readme.txt" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>/opt/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="Photon3Unity3D">
+ <HintPath>/home/candellws/Documents/Unity3d/Magic Players Flight & Shooter/Assets/Plugins/Photon3Unity3D.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
