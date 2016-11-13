@@ -1,6 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2008
 
+Project("{2211B431-68C5-0549-A5A0-C2F38067C1D5}") = "Magic Players Flight & Shooter", "Assembly-CSharp-firstpass.csproj", "{2DBBAEB3-2229-9902-268C-46B2967988C7}"
+EndProject
 Project("{2211B431-68C5-0549-A5A0-C2F38067C1D5}") = "Magic Players Flight & Shooter", "Assembly-CSharp.csproj", "{2245F6EB-0A71-013D-0493-F35F14BD8296}"
 EndProject
 Project("{2211B431-68C5-0549-A5A0-C2F38067C1D5}") = "Magic Players Flight & Shooter", "Assembly-CSharp-Editor.csproj", "{90B98FE7-6F29-343B-2DE9-EA9D64FDEFEE}"
@@ -11,6 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DBBAEB3-2229-9902-268C-46B2967988C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DBBAEB3-2229-9902-268C-46B2967988C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DBBAEB3-2229-9902-268C-46B2967988C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DBBAEB3-2229-9902-268C-46B2967988C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2245F6EB-0A71-013D-0493-F35F14BD8296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2245F6EB-0A71-013D-0493-F35F14BD8296}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2245F6EB-0A71-013D-0493-F35F14BD8296}.Release|Any CPU.ActiveCfg = Release|Any CPU
